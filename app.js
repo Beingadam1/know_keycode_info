@@ -72,6 +72,7 @@ function showInfo(e) {
 function showOnMobile(e) {
   keyInfo.style.display = 'block';
   footer.style.display = 'block';
+  showKey.style.display = 'block';
   e.target.value = '';
 }
 
